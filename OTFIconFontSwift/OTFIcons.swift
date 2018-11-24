@@ -5,7 +5,11 @@
 
 import UIKit
 
-/// Different Glyphs for runes in OTFIcons
+/**
+ Different Glyphs for runes in OTFIcons
+ 
+ [OTFDocGen](https://github.com/kevinscardina/swift-otficon)
+ */
 enum OTFIcons: String, CustomStringConvertible, CaseIterable {
     /// The OTFIcons as a UIFont
     static func font(size:CGFloat) -> UIFont? {
