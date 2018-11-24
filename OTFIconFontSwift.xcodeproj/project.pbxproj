@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3DB9E13D21A911D9000BAFBE /* OTFIcons.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9E13C21A911D9000BAFBE /* OTFIcons.otf */; };
+		3DB9E13F21AA0F9F000BAFBE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9E13E21AA0F9F000BAFBE /* README.md */; };
 		3DD210C9219F5DC6006FDD4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD210C8219F5DC6006FDD4A /* AppDelegate.swift */; };
 		3DD210CB219F5DC6006FDD4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD210CA219F5DC6006FDD4A /* ViewController.swift */; };
-		3DD210CE219F5DC6006FDD4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD210CC219F5DC6006FDD4A /* Main.storyboard */; };
 		3DD210D0219F5DC6006FDD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD210CF219F5DC6006FDD4A /* Assets.xcassets */; };
 		3DD210D3219F5DC6006FDD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD210D1219F5DC6006FDD4A /* LaunchScreen.storyboard */; };
 		3DD210FD21A20124006FDD4A /* OTFIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD210FC21A20124006FDD4A /* OTFIcons.swift */; };
@@ -18,10 +18,10 @@
 
 /* Begin PBXFileReference section */
 		3DB9E13C21A911D9000BAFBE /* OTFIcons.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OTFIcons.otf; sourceTree = "<group>"; };
+		3DB9E13E21AA0F9F000BAFBE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DD210C5219F5DC6006FDD4A /* OTFIconFontSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTFIconFontSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD210C8219F5DC6006FDD4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD210CA219F5DC6006FDD4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DD210CD219F5DC6006FDD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DD210CF219F5DC6006FDD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD210D2219F5DC6006FDD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD210D4219F5DC6006FDD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +42,7 @@
 		3DD210BC219F5DC6006FDD4A = {
 			isa = PBXGroup;
 			children = (
+				3DB9E13E21AA0F9F000BAFBE /* README.md */,
 				3DD210C7219F5DC6006FDD4A /* OTFIconFontSwift */,
 				3DD210C6219F5DC6006FDD4A /* Products */,
 			);
@@ -61,7 +62,6 @@
 				3DB9E13C21A911D9000BAFBE /* OTFIcons.otf */,
 				3DD210C8219F5DC6006FDD4A /* AppDelegate.swift */,
 				3DD210CA219F5DC6006FDD4A /* ViewController.swift */,
-				3DD210CC219F5DC6006FDD4A /* Main.storyboard */,
 				3DD210CF219F5DC6006FDD4A /* Assets.xcassets */,
 				3DD210D1219F5DC6006FDD4A /* LaunchScreen.storyboard */,
 				3DD210D4219F5DC6006FDD4A /* Info.plist */,
@@ -130,8 +130,8 @@
 			files = (
 				3DB9E13D21A911D9000BAFBE /* OTFIcons.otf in Resources */,
 				3DD210D3219F5DC6006FDD4A /* LaunchScreen.storyboard in Resources */,
+				3DB9E13F21AA0F9F000BAFBE /* README.md in Resources */,
 				3DD210D0219F5DC6006FDD4A /* Assets.xcassets in Resources */,
-				3DD210CE219F5DC6006FDD4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3DD210CC219F5DC6006FDD4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DD210CD219F5DC6006FDD4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DD210D1219F5DC6006FDD4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
