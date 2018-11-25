@@ -9,21 +9,17 @@
 /* Begin PBXBuildFile section */
 		3DB9E13D21A911D9000BAFBE /* OTFIcons.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9E13C21A911D9000BAFBE /* OTFIcons.otf */; };
 		3DB9E13F21AA0F9F000BAFBE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9E13E21AA0F9F000BAFBE /* README.md */; };
+		3DB9E14221AB4A00000BAFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9E14021AB4A00000BAFBE /* LaunchScreen.storyboard */; };
 		3DD210C9219F5DC6006FDD4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD210C8219F5DC6006FDD4A /* AppDelegate.swift */; };
-		3DD210CB219F5DC6006FDD4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD210CA219F5DC6006FDD4A /* ViewController.swift */; };
-		3DD210D0219F5DC6006FDD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD210CF219F5DC6006FDD4A /* Assets.xcassets */; };
-		3DD210D3219F5DC6006FDD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD210D1219F5DC6006FDD4A /* LaunchScreen.storyboard */; };
 		3DD210FD21A20124006FDD4A /* OTFIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD210FC21A20124006FDD4A /* OTFIcons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DB9E13C21A911D9000BAFBE /* OTFIcons.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OTFIcons.otf; sourceTree = "<group>"; };
 		3DB9E13E21AA0F9F000BAFBE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3DB9E14121AB4A00000BAFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD210C5219F5DC6006FDD4A /* OTFIconFontSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTFIconFontSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD210C8219F5DC6006FDD4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DD210CA219F5DC6006FDD4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DD210CF219F5DC6006FDD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3DD210D2219F5DC6006FDD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD210D4219F5DC6006FDD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DD210FC21A20124006FDD4A /* OTFIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFIcons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,11 +55,9 @@
 		3DD210C7219F5DC6006FDD4A /* OTFIconFontSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3DB9E14021AB4A00000BAFBE /* LaunchScreen.storyboard */,
 				3DB9E13C21A911D9000BAFBE /* OTFIcons.otf */,
 				3DD210C8219F5DC6006FDD4A /* AppDelegate.swift */,
-				3DD210CA219F5DC6006FDD4A /* ViewController.swift */,
-				3DD210CF219F5DC6006FDD4A /* Assets.xcassets */,
-				3DD210D1219F5DC6006FDD4A /* LaunchScreen.storyboard */,
 				3DD210D4219F5DC6006FDD4A /* Info.plist */,
 				3DD210FC21A20124006FDD4A /* OTFIcons.swift */,
 			);
@@ -128,10 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB9E14221AB4A00000BAFBE /* LaunchScreen.storyboard in Resources */,
 				3DB9E13D21A911D9000BAFBE /* OTFIcons.otf in Resources */,
-				3DD210D3219F5DC6006FDD4A /* LaunchScreen.storyboard in Resources */,
 				3DB9E13F21AA0F9F000BAFBE /* README.md in Resources */,
-				3DD210D0219F5DC6006FDD4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DD210FD21A20124006FDD4A /* OTFIcons.swift in Sources */,
-				3DD210CB219F5DC6006FDD4A /* ViewController.swift in Sources */,
 				3DD210C9219F5DC6006FDD4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,10 +143,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3DD210D1219F5DC6006FDD4A /* LaunchScreen.storyboard */ = {
+		3DB9E14021AB4A00000BAFBE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3DD210D2219F5DC6006FDD4A /* Base */,
+				3DB9E14121AB4A00000BAFBE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -281,7 +273,6 @@
 		3DD210D8219F5DC6006FDD4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DJV55FJW3;
 				INFOPLIST_FILE = "$(SRCROOT)/OTFIconFontSwift/Info.plist";
@@ -299,7 +290,6 @@
 		3DD210D9219F5DC6006FDD4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DJV55FJW3;
 				INFOPLIST_FILE = "$(SRCROOT)/OTFIconFontSwift/Info.plist";

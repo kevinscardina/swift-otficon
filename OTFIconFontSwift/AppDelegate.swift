@@ -8,6 +8,34 @@
 
 import UIKit
 
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Create a UITextView
+        let textView = UITextView()
+        textView.translatesAutoresizingMaskIntoConstraints = false
+        // add the textView to the view
+        view.addSubview(textView)
+        // add constraints
+        NSLayoutConstraint.activate([
+            textView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
+            textView.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
+            textView.topAnchor.constraint(equalToSystemSpacingBelow: view.safeAreaLayoutGuide.topAnchor, multiplier: 1.0),
+            view.safeAreaLayoutGuide.bottomAnchor.constraint(equalToSystemSpacingBelow: textView.bottomAnchor, multiplier: 1.0)
+            ])
+        // Set the font for the text view to the DVAIcon.font
+        textView.font = OTFIcons.font(size: 32)
+        
+        var text = ""
+        // Iterate though all the different icons
+        for icon in OTFIcons.allCases {
+            // Append the icon to text
+            text.append("\(icon)\t")
+        }
+        textView.text = text
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,7 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = ViewController()
-        window.rootViewController!.view.backgroundColor = UIColor.white
+        window.rootViewController?.view.backgroundColor = UIColor.white
         
         self.window = window
         window.makeKeyAndVisible()
